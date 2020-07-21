@@ -1,6 +1,6 @@
 # Relative Feature Importance
-/by Gunnar König, Christoph Molnar, Bernd Bischl, Moritz Grosse-Wentrup/
-Link to arXiv: [Relative Feature Importance](https://arxiv.org/abs/2007.08283)
+by Gunnar König, Christoph Molnar, Bernd Bischl, Moritz Grosse-Wentrup
+[arXiv](https://arxiv.org/abs/2007.08283)
 
 ## Contents
 
