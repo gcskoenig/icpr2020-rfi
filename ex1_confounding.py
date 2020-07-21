@@ -85,35 +85,6 @@ rfis.append([res[0], res[1]])
 pvals.append([res[2], paired_t(res[2], res[3])])
 rfinames.append(r'$RFI_j^{C}$')
 
-# G = np.array([0,1])
-# res = rfi(model.predict, mean_squared_error, G, X_train, X_test, y_test, D, n_repeats=30)
-# rfis.append([res[0], res[1]])
-# rfinames.append( r"$RFI_j^{C,X_1}$")
-
-# G = np.array([0,3])
-# res = rfi(model.predict, mean_squared_error, G, X_train, X_test, y_test, D, n_repeats=30)
-# rfis.append([res[0], res[1]])
-# rfinames.append( r"$RFI_j^{C,X_3}$")
-
-# G = np.array([0,2])
-# res = rfi(model.predict, mean_squared_error, G, X_train, X_test, y_test, D, n_repeats=30)
-# rfis.append([res[0], res[1]])
-# rfinames.append(r"$RFI_j^{C,X_2}$")
-
-# G = np.array([0,3])
-# res = rfi(model.predict, mean_squared_error, G, X_train, X_test, y_test, D, n_repeats=30)
-# rfis.append([res[0], res[1]])
-# rfinames.append(r"$RFI_j^{C,X_3}$")
-
-# G = np.array([3])
-# res = rfi(model.predict, mean_squared_error, G, X_train, X_test, y_test, D, n_repeats=30)
-# rfis.append([res[0], res[1]])
-# rfinames.append(r"$RFI_j^{X_3}$")
-
-# G = np.array([3])
-# mean_rfi_2, std_rfi_2, rfi_2 = rfi(model.predict, mean_squared_error, G, X_train, X_test, y_test, D, n_repeats=30)
-# print(mean_rfi_2)
-
 pvals = np.array(pvals)
 print(pvals[:, 1, 0, :])
 print(pvals[:, 1, 0, :] > 0.01)
