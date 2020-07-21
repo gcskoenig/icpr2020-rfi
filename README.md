@@ -12,4 +12,13 @@ This repository contains the code accompagnying the paper "Relative Feature Impo
 
 ## Dependencies
 
-TBD
+matplotlib==3.2.2  
+seaborn==0.10.1  
+torch==1.5.0  
+pyro_ppl==1.3.1  
+pandas==1.0.5  
+numpy==1.18.1  
+scipy==1.4.1  
+pyro==3.16  
+scikit_learn==0.23.1  
+
