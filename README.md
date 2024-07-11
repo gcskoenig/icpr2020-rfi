@@ -22,3 +22,6 @@ scipy==1.4.1
 pyro==3.16  
 scikit_learn==0.23.1  
 
+## Implementation of RFI
+
+An updated implementation of RFI can be found in the `fippy` package on [https://github.com/gcskoenig/fippy](https://github.com/gcskoenig/fippy).
